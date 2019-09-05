@@ -1,7 +1,7 @@
 {
-  "name": "rlp",
-  "version": "2.0.0",
-  "description": "Recursive Length Prefix Encoding Module",
+  "name": "rlp-browser",
+  "version": "1.0.1",
+  "description": "(Browser Enabled) Recursive Length Prefix Encoding Module",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wanderer/rlp.git"
+    "url": "https://github.com/gridplus/rlp.git"
   },
   "keywords": [
     "rlp",
@@ -24,7 +24,7 @@
   },
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/wanderer/rlp/issues"
+    "url": "https://github.com/gridplus/rlp/issues"
   },
   "devDependencies": {
     "ethereumjs-testing": "git+https://github.com/wanderer/ethereumjs-testing.git",
@@ -46,5 +46,8 @@
       "ipad/6",
       "android-browser/latest"
     ]
+  },
+  "dependencies": {
+    "buffer": "^5.4.2"
   }
 }

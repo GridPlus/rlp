@@ -1,3 +1,5 @@
+> This is a fork of EthereumJS' [rlp](https://www.npmjs.com/package/rlp) module, which allows browser support via the [buffer](https://www.npmjs.com/package/buffer) module, which uses `UInt8` arrays instead of the node.js `Buffer` module.
+
 SYNOPSIS
 =====
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)

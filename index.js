@@ -1,4 +1,5 @@
 const assert = require('assert')
+const Buffer = require('buffer/').Buffer
 /**
  * RLP Encoding based on: https://github.com/ethereum/wiki/wiki/%5BEnglish%5D-RLP
  * This function takes in a data, convert it to buffer if not, and a length for recursion
